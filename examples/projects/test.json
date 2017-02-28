@@ -1,0 +1,38 @@
+{
+    "project": {
+        "tags": [
+            "tree",
+            "form"
+        ],
+        "title": "项目设置",
+        "templates": [
+            "project"]
+        ,
+        "fileName": "project.json"
+    },
+
+    "entity": {
+        "tags": [
+            "tree",
+            "entity"
+        ],
+        "title": "实体",
+        "templates": [
+            "common",
+            "entity"
+        ],
+        "fileName": "config/entity.json"
+    },
+
+    "product": {
+        "tags": [
+            "table"
+        ],
+        "title": "产品",
+        "templates": [
+            "common",
+            "product"
+        ],
+        "fileName": "config/product.json"
+    }
+}

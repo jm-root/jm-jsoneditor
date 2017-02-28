@@ -1,0 +1,17 @@
+{
+    "id": {
+        "title": "编号",
+        "tags": ["int"]
+    },
+    "name" :{
+        "title": "名称"
+    },
+    "width": {
+        "tags": ["int"],
+        "title": "宽度"
+    },
+    "height": {
+        "tags": ["int"],
+        "title": "高度"
+    }
+}

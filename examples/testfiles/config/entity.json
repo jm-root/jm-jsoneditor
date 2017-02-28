@@ -1,0 +1,239 @@
+{
+    "layer": {
+        "components": {
+            "layer": {
+            }
+        }
+    },
+
+    "start_logo": {
+        "components": {
+            "sprite": {
+                "fileAliasName": "img_start_logo"
+            }
+        }
+    },
+
+    "价格背景": {
+        "components": {
+            "sprite": {
+                "fileAliasName": "img_price_bg",
+                "anchorX": 0,
+                "anchorY": 0
+            }
+        }
+    },
+
+    "框": {
+        "components": {
+            "ui": {
+                "type": "Widget",
+                "anchorX": 0,
+                "anchorY": 0,
+                "x": 0,
+                "y": 130,
+                "size": {
+                    "width": 1280,
+                    "height": 260
+                },
+                "ignoreContentAdaptWithSize": false
+            },
+
+            "boundingBox": {
+                "color": "#0"
+            }
+        }
+    },
+
+    "shopItem": {
+        "components": {
+            "shopItemRender": {
+                "autoAddToLayer": false,
+                "type": "ImageView",
+                "fileAliasName": "img_shopitem_bg1"
+            },
+
+            "product": {
+            },
+
+            "shopItem": {
+            },
+
+            "labelName": {
+                "className": "label",
+                "string": "名称",
+                "color": "#0",
+                "x": 94,
+                "y": 35
+            },
+
+            "labelPrice": {
+                "zOrder": 2,
+                "className": "label",
+                "string": "0.0",
+                "x": 47,
+                "y": 66
+            }
+
+        },
+
+        "children": [
+            {
+                "type": "价格背景",
+                "components": {
+                    "sprite": {
+                        "zOrder": 1,
+                        "x": 4,
+                        "y": 52
+                    }
+                }
+            }
+        ]
+    },
+
+    "shop": {
+        "components": {
+            "render": {
+                "autoAddToLayer": false,
+                "autoRelease": false
+            },
+
+            "shop": {
+                "cell": {
+                    "width": 188,
+                    "height": 204
+                },
+                "space": {
+                    "row": 10,
+                    "col": 10
+                },
+                "rows": 3
+            }
+        }
+    },
+
+    "cartItem": {
+        "components": {
+            "cartItemRender": {
+                "autoAddToLayer": false,
+                "width": 300,
+                "height":50
+            },
+
+            "touch":{
+                "swallowTouches":false
+            },
+
+            "product": {
+            },
+
+            "cartItem": {
+            },
+
+            "labelQty": {
+                "zOrder": 2,
+                "className": "label",
+                "fontSize": 22,
+                "string": "1",
+                "color": "#ff0000",
+                "x": 15,
+                "y": 25
+            },
+
+            "labelName": {
+                "zOrder": 2,
+                "className": "label",
+                "fontSize": 22,
+                "string": "名称",
+                "color": "#0",
+                "x": 120,
+                "y": 25
+            },
+
+            "labelAmount": {
+                "zOrder": 2,
+                "className": "label",
+                "fontSize": 22,
+                "string": "0.0",
+                "color": "#0",
+                "x": 240,
+                "y": 25
+            }
+        }
+    },
+
+    "tag": {
+        "components": {
+            "tagButton": {
+                "fileAliasName": "img_button_category"
+            },
+
+            "label": {
+                "x": 50,
+                "y": 20
+            }
+        }
+    },
+
+    "cart": {
+        "components": {
+            "render": {
+                "autoAddToLayer": false,
+                "autoRelease": false
+            },
+
+            "cart": {
+            }
+        }
+    },
+
+    "pay": {
+        "components": {
+            "pay": {
+            }
+        }
+    },
+
+    "billAcceptor": {
+        "components": {
+            "serialPort": {
+                "portName": 0,
+                "autoOpen": true
+            },
+
+            "billAcceptor": {
+            }
+
+        }
+    },
+
+    "hopper": {
+        "components": {
+            "serialPort": {
+                "portName": 1,
+                "autoOpen": true,
+                "params": {
+                    "config": 8
+                }
+            },
+
+            "hopper": {
+            }
+
+        }
+    },
+
+    "printer": {
+        "components": {
+            "serialPort": {
+                "portName": 2,
+                "autoOpen": true
+            },
+
+            "receiptPrinter": {
+            }
+
+        }
+    }
+
+}

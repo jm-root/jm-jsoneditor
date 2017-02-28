@@ -1,0 +1,6 @@
+{
+    "price": {
+        "title": "价格",
+        "tags": ["float"]
+    }
+}

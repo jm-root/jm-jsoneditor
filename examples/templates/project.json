@@ -1,0 +1,25 @@
+{
+    "debugMode": {
+        "tags": ["int"],
+        "title": "调试模式"
+    },
+    "showFPS": {
+        "tags": ["select", "boolean"],
+        "title": "显示FPS",
+        "options":[{"title":"显示","value":true},{"title":"不显示","value":false}]
+    },
+    "modules": {
+        "ignore": true
+    },
+    "jsList": {
+        "tags": ["checkbox"],
+        "title": "js文件列表",
+        "list":[{"title":"resource.js","value":"src/resource.js"},{"title":"product.js","value":"src/components/product.js"}]
+    },
+    "engineDir":{
+        "tags": ["link"],
+        "url":"/res/img",
+        "confDir":"res/img",
+        "title":"引擎"
+    }
+}

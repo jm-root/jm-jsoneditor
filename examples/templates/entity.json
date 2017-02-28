@@ -1,0 +1,18 @@
+{
+    "cell": {
+        "tags": ["form"],
+        "title": "单元格"
+    },
+
+    "components": {
+        "tags": ["tree"],
+        "title": "组件"
+    },
+
+    "cart": {
+        "ignore": true
+    }
+
+}
+
+

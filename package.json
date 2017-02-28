@@ -1,0 +1,38 @@
+{
+  "name": "jm-jsoneditor",
+  "version": "0.0.3",
+  "description": "json file editor",
+  "main": "./lib/index",
+  "scripts": {
+    "test": "node ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jm-root/jm-jsoneditor.git"
+  },
+  "keywords": [
+    "javascript",
+    "jm-jsoneditor",
+    "jsoneditor",
+    "json editor"
+  ],
+  "author": {
+    "name": "Jeff YU"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jm-root/jm-jsoneditor/issues"
+  },
+  "homepage": "https://github.com/jm-root/jm-jsoneditor",
+  "dependencies": {
+    "jm-common": "*"
+  },
+  "readme": "jm-jsonEditor\r\n======\r\n\r\njson file editor\r\n\r\nproject:\r\n    一个项目可以同时编辑多个JSON文件\r\n    [\r\n        {\r\n            \"type\": \"tree form\",                    //编辑模式\r\n            \"title\": \"项目设置\",                    //标题\r\n            \"template\": \"project\",                  //模板名称\r\n            \"fileName\": \"testFiles/project.json\"    //目标文件\r\n        },\r\n\r\n        {\r\n            \"type\": \"tree entity\",\r\n            \"title\": \"实体\",\r\n            \"template\": \"common entity\",\r\n            \"fileName\": \"testFiles/config/entity.json\"\r\n        },\r\n\r\n        {\r\n            \"type\": \"table\",\r\n            \"title\": \"产品\",\r\n            \"template\": \"common product\",\r\n            \"fileName\": \"testFiles/config/product.json\"\r\n        }\r\n    ]\r\n\r\ntemplate:\r\n    模板用于确定json文件中的哪些项目需要被编辑， 以及按什么方式编辑\r\n\r\n",
+  "readmeFilename": "README.md",
+  "_id": "jm-jsoneditor@0.0.0",
+  "dist": {
+    "shasum": "2aaa0cad3e8b71e97ea786904517394931e8d25e"
+  },
+  "_from": "jm-jsoneditor@*",
+  "_resolved": "http://registry.npmjs.org/jm-jsoneditor/-/jm-jsoneditor-0.0.0.tgz"
+}
